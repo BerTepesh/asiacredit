@@ -8,7 +8,7 @@ var gulp 	    	= require('gulp'),
 		plumber 		= require('gulp-plumber'),
 		reload 			= browserSync.reload;
 
-var projectName = 'AsiaCredit.ru';
+var projectName = 'asiacredit.ru';
 var path = {
 			build: {
 				html: projectName + '/',
