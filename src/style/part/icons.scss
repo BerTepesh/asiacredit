@@ -1,0 +1,30 @@
+[class^='icon-'], [class*=' icon-'] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	background: url('../../f/img/sprite.png') -9999px -9999px no-repeat;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+	[class^='icon-'], [class*=' icon-'] {
+		background-image: url('../../f/img/sprite@2x.png');
+		background-size: 200px 200px;
+	}
+}
+.icon-setting {
+	width: 21px;
+	height: 22px;
+	background-position: 0 0;
+}
+.icon-card {
+	width: 27px;
+	height: 18px;
+	background-position: -25px 0;
+}
+.icon-admin {
+	width: 18px;
+	height: 20px;
+	background-position: -56px 0;
+}
